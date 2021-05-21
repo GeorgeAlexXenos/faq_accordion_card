@@ -82,6 +82,10 @@ label {
   font-size: 0.9rem;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
+}
+label:active {
+  color: var(--softRed);
 }
 
 label img {
@@ -119,6 +123,9 @@ media querries
 -------------*/
 
 @media only screen and (min-width: 1080px) {
+  body {
+    padding-top: 30px;
+  }
   .container {
     min-width: -webkit-fit-content;
     min-width: -moz-fit-content;
