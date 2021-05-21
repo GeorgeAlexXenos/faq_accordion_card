@@ -24,6 +24,7 @@
 }
 
 body {
+  padding-top: 150px;
   min-height: 100vh;
   width: 100vw;
   font-size: 12px;
@@ -46,6 +47,7 @@ body {
   background-position: top;
   border-radius: 1rem;
   box-shadow: 10px 40px 50px 5px rgba(0, 0, 0, 0.315);
+  margin-bottom: 50px;
 }
 
 .image {
